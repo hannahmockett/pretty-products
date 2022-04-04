@@ -13,10 +13,9 @@ body {
   margin: 0;
 }
 
-ul {
+ol {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr 1fr;
   grid-gap: 1rem;
   margin: 0;
   padding: 1rem;
@@ -28,7 +27,7 @@ li {
   border-radius: 6px;
 }
 
-ul > li {
+ol > li {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
