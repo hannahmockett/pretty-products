@@ -10,7 +10,7 @@ html {
 }
 
 body {
-  margin: 0;
+  margin-top: 1rem;
 }
 
 ol {
@@ -18,7 +18,10 @@ ol {
   grid-template-columns: 1fr 1fr;
   grid-gap: 1rem;
   margin: 0;
-  padding: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: .1em;
+  padding-bottom: .5em;
 }
 
 li {
@@ -55,7 +58,10 @@ p {
 
 .item {
   max-width: 100%;
-  padding: 1rem 4.05rem 4.05rem 1rem;
+  padding-top: 1rem;
+  padding-left: 4rem;
+  padding-right: 4.05rem;
+  padding-bottom: 1rem;
 }
 
 .add-to-cart-button {
