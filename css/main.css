@@ -25,6 +25,10 @@ li {
   list-style: none;
   border: 3px solid #987ffa;
   border-radius: 6px;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: .1em;
+  padding-bottom: .5em;
 }
 
 ol > li {
@@ -47,7 +51,6 @@ p {
   font-family: Karma, serif;
   font-size: 1.4rem;
   text-align: center;
-  padding: 1rem 1rem .1rem .5rem;
 }
 
 .item {
@@ -62,7 +65,10 @@ p {
   color: white;
   border-radius: 3em;
   text-decoration: none;
-  padding: .3em .6em 1.5em 1.5em;
+  padding-top: .3em;
+  padding-bottom: .6em;
+  padding-left: 1.5em;
+  padding-right: 1.5em;
   margin: 1rem;
 }
 
