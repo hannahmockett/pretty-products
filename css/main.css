@@ -87,7 +87,8 @@ h2, p {
   margin: 1rem;
 }
 
-.nav {
+.nav-element {
   line-height: 1.3rem;
   padding-top: .7rem;
+  justify-content: space-between;
 }
