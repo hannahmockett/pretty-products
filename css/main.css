@@ -11,6 +11,7 @@ html {
 
 body {
   margin-top: 1rem;
+  margin-left: .3rem;
 }
 
 ol {
@@ -37,8 +38,12 @@ li {
 ol > li {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
   align-items: center;
+  justify-content: space-between;
+}
+
+ol > img {
+  justify-content: space-between;
 }
 
 h2 {
@@ -52,13 +57,14 @@ h2 {
 
 p {
   font-family: Karma, serif;
+  margin: 0;
   font-size: 1.4rem;
   text-align: center;
-  line-height: 1.3rem;
+  line-height: 1.5rem;
 }
 
 h2, p {
-  margin: .1rem;
+  margin: 0;
   padding-top: .9rem;
 }
 
@@ -87,4 +93,8 @@ h2, p {
 .nav {
   line-height: 1.3rem;
   padding-top: .6rem;
+}
+
+div {
+  justify-content: space-between;
 }
